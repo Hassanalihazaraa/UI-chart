@@ -1,12 +1,16 @@
-body{
+body {
   background-color: #dddddd;
+
+  .outline-mode * {
+    outline: 1px solid #000;
+  }
 }
 
-.table{
-    border-collapse: inherit;
-    border-spacing: 0.1em;
-    padding: .5em;
-    border: none;
+.table {
+  border-collapse: inherit;
+  border-spacing: 0.1em;
+  padding: .5em;
+  border: none;
 }
 
 .bg-primary-lighter {
@@ -22,11 +26,11 @@ body{
 }
 
 
-h1{
+h1 {
   font-size: 2rem;
   margin: 3rem 0 1rem 4rem;
 }
 
-.card{
+.card {
   width: 50%;
 }
